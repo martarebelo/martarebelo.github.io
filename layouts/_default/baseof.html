@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" charset="utf-8">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="/style.css" />
+  <title>Marta Rebelo</title>
+
+  <link rel="icon" href="/favicon-32x32.png" />
+</head>
+
+<body>
+  <nav>
+    <div class="nav__header">
+      <div class="nav__logo">
+        <a href="/">Marta Rebelo</a>
+      </div>
+      <div class="nav__menu__btn" id="menu-btn">
+        <i class="ri-menu-line"></i>
+        <!-- icone
+            -->
+
+      </div>
+    </div>
+    <ul class="nav__links" id="nav-links">
+      <li><span><a href="/">Home</a></span></li>
+      <li><span><a href="/about">About</a></span></li>
+      <li><span><a href="/contact">Contact</a></span></li>
+    </ul>
+  </nav>
+
+  {{ block "main" . }}
+  {{ end }}
+
+  <div class="footer">
+    <p> Copyright © 2025 Marta Rebelo. All rights reserved.</p>
+  </div>
+
+  <script src="/main.js"></script>
+</body>
+
+</html>

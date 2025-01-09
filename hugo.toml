@@ -1,0 +1,4 @@
+baseURL = 'https://martarebelo.me/'
+languageCode = 'en-us'
+title = 'Marta Rebelo'
+disableKinds = ['taxonomy', 'term']
