@@ -291,6 +291,7 @@ a.button {
 
 a.button:hover {
   background-color: #4095c6;
+  color: red;
 }
 
 
