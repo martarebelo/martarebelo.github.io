@@ -27,6 +27,10 @@
   margin: auto;
 }
 
+.project__container {
+  padding-top: 0;
+}
+
 .section__subheader {
   font-size: 1.2rem;
   font-weight: 500;
