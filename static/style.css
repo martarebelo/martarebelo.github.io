@@ -25,6 +25,7 @@
   max-width: var(--max-width);
   padding: 5rem 1rem;
   margin: auto;
+  padding-left: 7rem;
 }
 
 .project__container {
@@ -206,11 +207,11 @@ header {
   gap: 2rem;
   flex-direction: column;
   overflow: hidden;
-  background: whitesmoke;
+  
   /* outline-style: solid;
   outline-width: 1px;
   outline-color: #1E1E1E;*/
-  border-radius: 20px
+  
 }
 
 
