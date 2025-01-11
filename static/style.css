@@ -69,10 +69,26 @@ ul {
 html,
 body {
   scroll-behavior: smooth;
+  height: 100%;
+  margin: 0;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+}
+
+
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+
+.footer,
+.push {
+  height: 50px;
 }
 
 nav {
@@ -333,6 +349,16 @@ a.button:hover {
     padding: 20px;
     padding-top: 0px;
   }
+
+  .about_description {
+    padding: 0;
+  }
+
+  .about_container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media (width > 540px) {
@@ -361,6 +387,7 @@ a.button:hover {
     padding: 20px;
     padding-top: 0px;
   }
+
 }
 
 @media (width > 768px) {
@@ -443,5 +470,21 @@ a.button:hover {
     padding: 20px;
     padding-top: 0px;
   }
+}
 
+.about_image {
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  max-width: 300px;
+}
+
+.about_description {
+  padding-right: 20px;
+}
+
+.about_container {
+  display: flex;
+  align-items: start;
+  justify-content: center
 }

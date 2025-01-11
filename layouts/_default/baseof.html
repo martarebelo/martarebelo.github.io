@@ -15,34 +15,39 @@
 </head>
 
 <body>
-  <nav>
-    <div class="nav__header">
-      <div class="nav__logo">
-        <a href="/">Marta Rebelo</a>
-      </div>
-      <div class="nav__menu__btn" id="menu-btn">
-        <i class="ri-menu-line"></i>
-        <!-- icone
+  <div class="wrapper">
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="/">Marta Rebelo</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+          <!-- icone
             -->
 
+        </div>
       </div>
+      <ul class="nav__links" id="nav-links">
+        <li><span><a href="/">Home</a></span></li>
+        <li><span><a href="/about">About</a></span></li>
+        <li><span><a href="https://www.linkedin.com/in/m-rebelo/" target="_blank"><i
+                class="fa-brands fa-linkedin"></i></a></span></li>
+        <li><span><a href="mailto:martarebelo.media@gmail.com"><i class="fa fa-envelope"></i></a></span></li>
+      </ul>
+    </nav>
+
+    <div class="content">
+      {{ block "main" . }}
+      {{ end }}
     </div>
-    <ul class="nav__links" id="nav-links">
-      <li><span><a href="/">Home</a></span></li>
-      <li><span><a href="/about">About</a></span></li>
-      <li><span><a href="https://www.linkedin.com/in/m-rebelo/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></span></li>
-      <li><span><a href="mailto:martarebelo.media@gmail.com"><i class="fa fa-envelope"></i></a></span></li>
-    </ul>
-  </nav>
 
-  <div class="content">
-  {{ block "main" . }}
-  {{ end }}
+    <div class="push"></div>
   </div>
 
-  <div class="footer">
+  <footer class="footer">
     <p> Copyright © 2025 Marta Rebelo. All rights reserved.</p>
-  </div>
+  </footer>
 
   <script src="/main.js"></script>
 </body>
