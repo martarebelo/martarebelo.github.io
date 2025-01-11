@@ -207,15 +207,19 @@ header {
   gap: 2rem;
   flex-direction: column;
   overflow: hidden;
-  
+  background: whitesmoke;
   /* outline-style: solid;
   outline-width: 1px;
   outline-color: #1E1E1E;*/
+  border-radius: 20px
   
 }
 
 
-
+.about__row:hover{
+  
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
 .about__row a {
   color: var(--text-light);
