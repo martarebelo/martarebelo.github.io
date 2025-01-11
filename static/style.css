@@ -77,6 +77,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.wrapper {
+  background: rgb(255,209,185);
+  background: linear-gradient(0deg, rgba(255,209,185,1) 0%, rgba(254,235,208,1) 50%, rgba(255,225,201,1) 100%);
+}
 
 .wrapper {
   min-height: 100%;
