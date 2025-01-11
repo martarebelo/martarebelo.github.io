@@ -154,6 +154,7 @@ header {
 
 .header__container {
   padding-block: 8rem 0;
+  padding-top: 0;
   display: flex;
   gap: 2rem;
 }
@@ -298,10 +299,6 @@ a.button:hover {
   color: var(--primary-color);
 }
 
-
-
-
-
 .footer {
   position: relative;
   left: 0;
@@ -318,6 +315,24 @@ a.button:hover {
     display: block;
     margin: 0.2rem auto;
   }
+
+  header {
+    padding-top: 3rem;
+  }
+
+  .content {
+    padding-top: 3rem;
+  }
+
+  .header__container {
+    padding-top: 0;
+  }
+
+  .about__content {
+    text-align: left;
+    padding: 20px;
+    padding-top: 0px;
+  }
 }
 
 @media (width > 540px) {
@@ -328,6 +343,23 @@ a.button:hover {
 
   .header__content h1 span {
     font-size: 6rem;
+  }
+
+  header {
+    padding-top: 3rem;
+  }
+
+  .content {
+    padding-top: 3rem;
+  }
+
+  .header__container {
+    padding-top: 0;
+  }
+  
+  .about__content {
+    padding: 20px;
+    padding-top: 0px;
   }
 }
 
@@ -408,6 +440,8 @@ a.button:hover {
 
   .about__content {
     text-align: left;
+    padding: 20px;
+    padding-top: 0px;
   }
 
 }
