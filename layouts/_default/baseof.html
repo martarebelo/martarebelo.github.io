@@ -50,7 +50,8 @@
     <p> Copyright © 2025 Marta Rebelo. All rights reserved.</p>
   </footer>
 
-  <script src="/main.js"></script>
+  {{ $scripts := resources.Get "main.js" }}
+  <script src="{{ $scripts.Permalink }}"></script>
 </body>
 
 </html>
