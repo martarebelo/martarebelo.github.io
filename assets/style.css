@@ -309,13 +309,13 @@ a.button {
 
   font-weight: 500;
   color: #FFFFFF;
-  background-color: #4eb5f1;
+  background-color: #1e83aa;
   text-align: center;
   transition: all 0.2s;
 }
 
 a.button:hover {
-  background-color: #510c06;
+  background-color: #0c5573;
  
 }
 
@@ -481,6 +481,8 @@ a.button:hover {
   margin-bottom: 30px;
   margin-top: 20px;
   max-width: 300px;
+  border-radius: 25px
+
 }
 
 .about_description {
