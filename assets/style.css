@@ -340,10 +340,6 @@ a.button:hover {
     padding-top: 3rem;
   }
 
-  .content {
-    padding-top: 3rem;
-  }
-
   .header__container {
     padding-top: 0;
   }
@@ -500,4 +496,12 @@ a.button:hover {
   display: flex;
   align-items: start;
   justify-content: center
+}
+
+.project_header {
+  border-radius: 25px;
+}
+
+.content {
+  padding-top: 4rem;
 }
