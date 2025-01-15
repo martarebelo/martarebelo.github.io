@@ -476,6 +476,13 @@ a.button:hover {
   }
 }
 
+@media (width > 1024px) {
+
+  .project_overview {
+    padding-right: 150px;
+  }
+}
+
 .about_image {
   margin: auto;
   margin-bottom: 30px;
